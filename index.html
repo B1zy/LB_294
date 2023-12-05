@@ -1,53 +1,17 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tagebuchwebseite</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
 </head>
 <body>
-    <header>
-        <h1>Tagebuchwebseite</h1>
-    </header>
-
-    <nav>
-        <!-- Navigationsmenü hier einfügen -->
-    </nav>
-
-    <main id="mainContent">
-        <!-- Hauptanzeigebereich hier einfügen -->
-    </main>
-    <form id="editForm" style="display: none;">
-        <!-- Formularelemente für die Bearbeitung hier einfügen -->
-        <input type="text" id="editTitle" placeholder="Titel">
-        <input type="text" id="editDescription" placeholder="Beschreibung">
-        <textarea id="editContent" placeholder="Inhalt"></textarea>
-        <input type="text" id="editAuthor" placeholder="Autor">
-        <input type="date" id="editCreationDate" placeholder="Erstellungsdatum">
-        <input type="time" id="editCreationHour" placeholder="Erstellungszeit">
-        <input type="text" id="editAppendix" placeholder="Anhang">
-        <!-- Weitere Eingabefelder für andere Eigenschaften hinzufügen -->
-        <button type="button" onclick="cancelEdit()">Abbrechen</button>
-        <button type="button" onclick="saveEdit()">Speichern</button>
-        <input type="hidden" id="editId" value="">
+    <form id="login-form">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
     </form>
 
-    <!-- Detailansicht -->
-    <div id="detailView" style="display: none;">
-        <h2 id="detailTitle"></h2>
-        <p id="detailDescription"></p>
-        <p id="detailAuthor"></p>
-        <p id="detailContent"></p>
-        <p id="detailCreationDate"></p>
-        <p id="detailCreationHour"></p>
-        <button onclick="backToMain()">Zurück zur Hauptansicht</button>
-    </div>
-
-    <footer>
-        <!-- Footer-Inhalt hier einfügen -->
-    </footer>
-
-    <script src="app.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>

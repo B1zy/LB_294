@@ -1,0 +1,32 @@
+{
+  "entries":[
+    
+  {"title" :"Eintrag eins",
+  "id":"1",
+  "description":"mein erstes Eintrag",
+  "author":"Kamil",
+  "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper volutpat eros non elementum. Nulla porttitor magna sed purus tristique, ac consectetur sapien rutrum. Integer ut condimentum metus, sed congue dui. Ut venenatis lobortis elit, et interdum ligula. Vivamus id. ",
+  "creationDate":"04.12.2023",
+  "creationHour":"12:00",
+  "appendix":"false"
+  },
+  {"title" :"Eintrag zwei",
+  "id":"2",
+  "description":"mein zweites Eintrag",
+  "author":"Kamil",
+  "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper volutpat eros non elementum. Nulla porttitor magna sed purus tristique, ac consectetur sapien rutrum. Integer ut condimentum metus, sed congue dui. Ut venenatis lobortis elit, et interdum ligula. Vivamus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper volutpat eros non elementum. Nulla porttitor magna sed purus tristique, ac consectetur sapien rutrum. Integer ut condimentum metus, sed congue dui. Ut venenatis lobortis elit, et interdum ligula. Vivamus id. ",
+  "creationDate":"'05'.12.2023",
+  "creationHour":"13:00",
+  "appendix":"false"
+  },
+  {"title" :"Eintrag drei",
+  "id":"3", 
+  "description":"mein drittes Eintrag", 
+  "author":"Kamil",
+  "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper volutpat eros non elementum. Nulla porttitor magna sed purus tristique, ac consectetur sapien rutrum. Integer ut condimentum metus, sed congue dui. Ut venenatis lobortis elit, et interdum ligula. Vivamus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper volutpat eros non elementum. Nulla porttitor magna sed purus tristique, ac consectetur sapien rutrum. Integer ut condimentum metus, sed congue dui. Ut venenatis lobortis elit, et interdum ligula. Vivamus id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper volutpat eros non elementum. Nulla porttitor magna sed purus tristique, ac consectetur sapien rutrum. Integer ut condimentum metus, sed congue dui. Ut venenatis lobortis elit, et interdum ligula. Vivamus id. ",
+  "creationDate":"06.12.2023",
+  "creationHour":"14:00",
+  "appendix":"false"
+  }
+  ]
+}
